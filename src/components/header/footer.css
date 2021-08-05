@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  padding: 2rem 2rem;
+  background-color: rgba(41, 41, 41, 0.993);
+  color: white;
+  align-items: center;
+}
+
+.footer_title {
+  /* grid-column-start: 2/ 3; */
+  text-align: center;
+  grid-column: 2/ 3;
+}
+
+.footer__contact-us {
+  grid-column-start: 1;
+  text-align: left;
+}
+
+.footer__copyright {
+  text-align: right;
+  grid-column-start: 3;
+}
+
+.footer_title span {
+  color: blue;
+  text-transform: capitalize;
+  font-size: 3rem;
+}

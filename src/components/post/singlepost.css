@@ -1,0 +1,54 @@
+.post {
+  font-family: "Roboto", sans-serif;
+  width: 95vw;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.post__image--container {
+  overflow: hidden;
+}
+
+.post__image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  height: 20rem;
+}
+
+.post__title {
+  color: rgb(43, 42, 42);
+  letter-spacing: 0.15rem;
+  margin-top: 1.2rem;
+}
+
+.post__description {
+  margin-top: 1.3rem;
+}
+.post__content {
+  margin-top: 1.2rem;
+  color: rgb(41, 41, 41);
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.post__author {
+  font-style: italic;
+  font-weight: 600;
+}
+.post__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .post {
+    width: 870px;
+  }
+}

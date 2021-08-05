@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.posts {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  display: initial;
+}
+
+.post {
+}
+.post__image--container {
+}
+
+.post__image {
+}
+
+.post__title {
+  color: rgb(43, 42, 42);
+  letter-spacing: 0.15rem;
+}
+
+.post__description,
+.post__content {
+  color: rgb(41, 41, 41);
+  font-size: 0.9rem;
+}
+.post__read-more--btn {
+  display: block;
+  width: 10rem;
+  padding: 5px 10px;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  color: white;
+  background-color: rgb(84 84 84);
+  text-transform: capitalize;
+}
+
+.post__read-more--btn:hover {
+  transition: all 0.3s linear;
+  background-color: white;
+  color: rgb(84 84 84);
+}
+
+@media screen and (min-width: 650px) {
+  .posts {
+    width: 600px;
+    border: 2px dotted red;
+  }
+}
